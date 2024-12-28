@@ -2,7 +2,7 @@ import React from "react";
 import gym_home from "../assets/gym 1.jpg";
 import { AiFillPlayCircle } from "react-icons/ai"; // Awesome Font Video Icon
 
-const Hero = () => {
+const Home = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between p-6 bg-[#bae6fd]">
       {/* Left Section: Text Content */}
@@ -48,4 +48,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
