@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", serif;
+}
+/* var color  */
+/* styles.css or src/index.css */
+:root {
+  --primary: #e1f5fe;
+  --secondary: #0ea5e9;
+  --third:#7dd3fc;
+  --default: #0369a1;
+  --text-primary: #082f49;
+  --text-secondary: #075985;
+  --text-default: #0284c7;
+  --btn-primary: #082f49;
+  --btn-secondary: #075985;
+  --btn-default: #0369a1;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: auto; /* Allow scrolling */
+  -ms-overflow-style: none; /* Hide scrollbars in IE and Edge */
+  scrollbar-width: none; /* Hide scrollbars in Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbars in Webkit browsers */
+}
+/* Floating Animation of home section */
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: floating 2s ease-in-out infinite;
+}
