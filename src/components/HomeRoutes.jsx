@@ -5,6 +5,7 @@ import OurActivity from "./Trainers/OurActivity.jsx";
 import OurTrainer from "./Trainers/OurTrainers.jsx";
 import GymPackages from "./Trainers/GymPackages.jsx";
 import OurMember from "./Trainers/OurMember.jsx";
+import LatestPosts from "./Posts/LatestPosts.jsx";
 const HomeRoutes = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const HomeRoutes = () => {
   <OurTrainer/>
   <GymPackages/>
   <OurMember/>
+  <LatestPosts/>
     </div>
   )
 }
